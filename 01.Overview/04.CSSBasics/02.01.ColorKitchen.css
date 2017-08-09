@@ -1,0 +1,19 @@
+#h1Head{
+    color: yellow;
+    font-family: sans-serif;
+    text-align:center;
+}
+#FirstDIV{
+margin: 0px;
+    padding: 0px;
+}
+#Body{
+
+}
+#table{
+    margin:0px;
+    padding: 0px;
+}
+li::before{
+    content: url("678134-sign-check-128.png");
+}
