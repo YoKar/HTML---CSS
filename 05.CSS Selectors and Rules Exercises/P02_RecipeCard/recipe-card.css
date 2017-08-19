@@ -1,0 +1,128 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v13/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v13/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v13/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v13/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v13/R4a6fty3waPci7C44H8AjvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v13/tI4j516nok_GrVf4dhunkg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;}
+main{
+    background:url("img/food-image-bg.png") no-repeat center;
+    height: 680px;
+    border-radius: 15px;
+    width: 1100px;
+    margin: 40px 9%;
+    background-size: cover;
+
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+
+}
+main h1{
+    text-align: right;
+    font-size: 57px;
+    font-family: Lato ,sans-serif;
+    text-transform: uppercase;
+    color: white;
+    padding: 45px 50px 0 0;
+    letter-spacing: 1px;
+
+
+
+    margin-top: 0;
+    float: right;
+}
+main div p{
+    color: white;
+    float: left;
+    position: relative;
+    font-size: 16px;
+
+   margin: 55px 0 0 30px;
+}
+main div p:first-of-type {
+    color: white;
+    float: left;
+    position: relative;
+    font-size: 16px;
+
+    margin: 55px 0 0 100px;
+}
+main div span{
+    color: #B5C600;
+    text-shadow: 0.5px 0.5px  rgba(0 , 0 , 0 ,0.6);
+}
+.btn-primary{
+    position: relative;
+    margin: 35px 0 0 250px;
+    border-radius: 22px;
+    padding: 10px 30px;
+    background-color: transparent;
+    color: white;
+    letter-spacing: 1px;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+.btn-primary:hover{
+    background-color: #B5C640;
+    border: 1px solid #B5C640;
+}
+.prep-steps{
+
+    width: 55.5%;
+    float: right;
+    list-style-type: none;
+    color: white;
+    margin: 0 50px 0  0;
+    line-height: 25px;
+    font-family:  sans-serif;
+    text-align: left;
+}
+.step{
+    margin-top: 30px;
+    font-size: 16px;
+}
